@@ -35,6 +35,7 @@ Robot.prototype.moveTwo = function(dir) {
 };
 
 Robot.prototype.onMarker = function () {
+  var marker = 0;
   return this.x === marker;
 };
 
