@@ -6,7 +6,7 @@ while(!robot.robotOne.onMarker() && !robot.robotTwo.onMarker()){
   robot.robotTwo.moveOne('right');
 }
 
-//Move the robot that is not on
+//Move the robot that is not on marker back to mark to collide
 if(robot.robotOne.onMarker()){
   while(!robot.checkCollision()){
     robot.robotTwo.moveOne('left');
