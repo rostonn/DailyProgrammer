@@ -35,8 +35,12 @@ Robot.prototype.moveTwo = function(dir) {
 };
 
 Robot.prototype.onMarker = function () {
+<<<<<<< HEAD
   var marker = 0;
   return this.x === marker;
+=======
+  return this.x === challenge.marker;
+>>>>>>> c7c11ca430ccb153abfd830ea5d1dd2f2f82adb6
 };
 
 var randomNeg = Math.floor(Math.random()*100) * -1
